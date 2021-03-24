@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "CommonJS",
+        "declaration": true,
+        "outDir": "./lib",
+        "lib": [
+            "es2015"
+        ],
+        "baseUrl": "./src",
+        "paths": {
+            "~interfaces/*": [
+                "interfaces/*"
+            ]
+        },
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    }
+}
