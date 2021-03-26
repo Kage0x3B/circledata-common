@@ -6,7 +6,13 @@
     ],
     "jsRules": {},
     "rules": {
-        "no-console": false
+        "no-console": [
+            true,
+            "debug",
+            "time",
+            "timeEnd",
+            "trace"
+        ]
     },
     "rulesDirectory": []
 }
