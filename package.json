@@ -2,7 +2,8 @@
     "name": "circledata-common",
     "version": "1.0.0",
     "description": "Shared types etc. for CircleData, a personal data storage",
-    "main": "lib/index.js",
+    "main": "lib/cjs/index.js",
+    "module": "lib/esm/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
         "watch": "tsc --watch",
